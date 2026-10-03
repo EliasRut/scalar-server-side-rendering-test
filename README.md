@@ -1,4 +1,13 @@
-# Measurements: Scalar server-side rendering, static site generation example
+# Scalar server-side rendering: static site generation measurements
+
+## What this repo verifies
+
+Scalar's server-side rendering documentation shows a static site generation
+example. This repo runs that example unchanged and checks what it actually
+ships: the size of the HTML, the inline stylesheet inside it, and the
+JavaScript bundle the page loads. The goal is to confirm those sizes
+independently, and to give anyone a way to reproduce them with
+`npm ci && npm run generate`. It does not measure runtime performance.
 
 ## Abstract
 
