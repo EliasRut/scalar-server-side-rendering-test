@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@scalar/server-side-rendering": "^0.1.56"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6"
+  },
+  "scripts": {
+    "generate": "node generate-docs.mjs",
+    "serve": "serve dist"
+  }
+}
